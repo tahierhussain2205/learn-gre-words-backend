@@ -22,7 +22,6 @@ mongoose
 
 // Routes
 app.use("/api/user", require("./routes/user"));
-app.use("/api/test", require("./routes/test"));
 
 const port = process.env.PORT || 5000;
 const serveHost = process.env.YOUR_HOST || "0.0.0.0";
